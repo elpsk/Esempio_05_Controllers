@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABB264DD145ECA5100977EBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB264DC145ECA5100977EBD /* UIKit.framework */; };
+		ABB264DF145ECA5100977EBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB264DE145ECA5100977EBD /* Foundation.framework */; };
+		ABB264E1145ECA5100977EBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB264E0145ECA5100977EBD /* CoreGraphics.framework */; };
+		ABB264E7145ECA5100977EBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABB264E5145ECA5100977EBD /* InfoPlist.strings */; };
+		ABB264E9145ECA5100977EBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB264E8145ECA5100977EBD /* main.m */; };
+		ABB264ED145ECA5100977EBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB264EC145ECA5100977EBD /* AppDelegate.m */; };
+		ABB264F0145ECA5100977EBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB264EF145ECA5100977EBD /* ViewController.m */; };
+		ABB264F3145ECA5100977EBD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB264F1145ECA5100977EBD /* ViewController.xib */; };
+		ABB264FD145ECB1500977EBD /* Table.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB264FB145ECB1500977EBD /* Table.m */; };
+		ABB264FE145ECB1500977EBD /* Table.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB264FC145ECB1500977EBD /* Table.xib */; };
+		ABB26504145ECBA100977EBD /* NavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB26502145ECBA100977EBD /* NavBar.m */; };
+		ABB26505145ECBA100977EBD /* NavBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB26503145ECBA100977EBD /* NavBar.xib */; };
+		ABB26509145ECBB100977EBD /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB26507145ECBB100977EBD /* TabBar.m */; };
+		ABB2650A145ECBB100977EBD /* TabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB26508145ECBB100977EBD /* TabBar.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABB264D8145ECA5100977EBD /* A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB264DC145ECA5100977EBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABB264DE145ECA5100977EBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABB264E0145ECA5100977EBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABB264E4145ECA5100977EBD /* A-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "A-Info.plist"; sourceTree = "<group>"; };
+		ABB264E6145ECA5100977EBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABB264E8145ECA5100977EBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABB264EA145ECA5100977EBD /* A-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "A-Prefix.pch"; sourceTree = "<group>"; };
+		ABB264EB145ECA5100977EBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABB264EC145ECA5100977EBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABB264EE145ECA5100977EBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABB264EF145ECA5100977EBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABB264F2145ECA5100977EBD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		ABB264FA145ECB1500977EBD /* Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Table.h; sourceTree = "<group>"; };
+		ABB264FB145ECB1500977EBD /* Table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Table.m; sourceTree = "<group>"; };
+		ABB264FC145ECB1500977EBD /* Table.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Table.xib; sourceTree = "<group>"; };
+		ABB26501145ECBA100977EBD /* NavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavBar.h; sourceTree = "<group>"; };
+		ABB26502145ECBA100977EBD /* NavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavBar.m; sourceTree = "<group>"; };
+		ABB26503145ECBA100977EBD /* NavBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavBar.xib; sourceTree = "<group>"; };
+		ABB26506145ECBB100977EBD /* TabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBar.h; sourceTree = "<group>"; };
+		ABB26507145ECBB100977EBD /* TabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBar.m; sourceTree = "<group>"; };
+		ABB26508145ECBB100977EBD /* TabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBar.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB264D5145ECA5100977EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB264DD145ECA5100977EBD /* UIKit.framework in Frameworks */,
+				ABB264DF145ECA5100977EBD /* Foundation.framework in Frameworks */,
+				ABB264E1145ECA5100977EBD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABB264CD145ECA5100977EBD = {
+			isa = PBXGroup;
+			children = (
+				ABB264E2145ECA5100977EBD /* A */,
+				ABB264DB145ECA5100977EBD /* Frameworks */,
+				ABB264D9145ECA5100977EBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB264D9145ECA5100977EBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB264D8145ECA5100977EBD /* A.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB264DB145ECA5100977EBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABB264DC145ECA5100977EBD /* UIKit.framework */,
+				ABB264DE145ECA5100977EBD /* Foundation.framework */,
+				ABB264E0145ECA5100977EBD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABB264E2145ECA5100977EBD /* A */ = {
+			isa = PBXGroup;
+			children = (
+				ABB2650B145ECC1C00977EBD /* AppDelegate */,
+				ABB26500145ECB7D00977EBD /* NavBar */,
+				ABB264FF145ECB7400977EBD /* TabBar */,
+				ABB264F9145ECAF500977EBD /* Table */,
+				ABB264EE145ECA5100977EBD /* ViewController.h */,
+				ABB264EF145ECA5100977EBD /* ViewController.m */,
+				ABB264F1145ECA5100977EBD /* ViewController.xib */,
+				ABB264E3145ECA5100977EBD /* Supporting Files */,
+			);
+			path = A;
+			sourceTree = "<group>";
+		};
+		ABB264E3145ECA5100977EBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABB264E4145ECA5100977EBD /* A-Info.plist */,
+				ABB264E5145ECA5100977EBD /* InfoPlist.strings */,
+				ABB264E8145ECA5100977EBD /* main.m */,
+				ABB264EA145ECA5100977EBD /* A-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABB264F9145ECAF500977EBD /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				ABB264FA145ECB1500977EBD /* Table.h */,
+				ABB264FB145ECB1500977EBD /* Table.m */,
+				ABB264FC145ECB1500977EBD /* Table.xib */,
+			);
+			name = Table;
+			sourceTree = "<group>";
+		};
+		ABB264FF145ECB7400977EBD /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				ABB26506145ECBB100977EBD /* TabBar.h */,
+				ABB26507145ECBB100977EBD /* TabBar.m */,
+				ABB26508145ECBB100977EBD /* TabBar.xib */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		ABB26500145ECB7D00977EBD /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				ABB26501145ECBA100977EBD /* NavBar.h */,
+				ABB26502145ECBA100977EBD /* NavBar.m */,
+				ABB26503145ECBA100977EBD /* NavBar.xib */,
+			);
+			name = NavBar;
+			sourceTree = "<group>";
+		};
+		ABB2650B145ECC1C00977EBD /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				ABB264EB145ECA5100977EBD /* AppDelegate.h */,
+				ABB264EC145ECA5100977EBD /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB264D7145ECA5100977EBD /* A */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB264F6145ECA5100977EBD /* Build configuration list for PBXNativeTarget "A" */;
+			buildPhases = (
+				ABB264D4145ECA5100977EBD /* Sources */,
+				ABB264D5145ECA5100977EBD /* Frameworks */,
+				ABB264D6145ECA5100977EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = A;
+			productName = A;
+			productReference = ABB264D8145ECA5100977EBD /* A.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB264CF145ECA5100977EBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Cutaway SRL";
+			};
+			buildConfigurationList = ABB264D2145ECA5100977EBD /* Build configuration list for PBXProject "A" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABB264CD145ECA5100977EBD;
+			productRefGroup = ABB264D9145ECA5100977EBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB264D7145ECA5100977EBD /* A */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB264D6145ECA5100977EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB264E7145ECA5100977EBD /* InfoPlist.strings in Resources */,
+				ABB264F3145ECA5100977EBD /* ViewController.xib in Resources */,
+				ABB264FE145ECB1500977EBD /* Table.xib in Resources */,
+				ABB26505145ECBA100977EBD /* NavBar.xib in Resources */,
+				ABB2650A145ECBB100977EBD /* TabBar.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB264D4145ECA5100977EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB264E9145ECA5100977EBD /* main.m in Sources */,
+				ABB264ED145ECA5100977EBD /* AppDelegate.m in Sources */,
+				ABB264F0145ECA5100977EBD /* ViewController.m in Sources */,
+				ABB264FD145ECB1500977EBD /* Table.m in Sources */,
+				ABB26504145ECBA100977EBD /* NavBar.m in Sources */,
+				ABB26509145ECBB100977EBD /* TabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABB264E5145ECA5100977EBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB264E6145ECA5100977EBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABB264F1145ECA5100977EBD /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB264F2145ECA5100977EBD /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABB264F4145ECA5100977EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABB264F5145ECA5100977EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABB264F7145ECA5100977EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "A/A-Prefix.pch";
+				INFOPLIST_FILE = "A/A-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABB264F8145ECA5100977EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "A/A-Prefix.pch";
+				INFOPLIST_FILE = "A/A-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB264D2145ECA5100977EBD /* Build configuration list for PBXProject "A" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB264F4145ECA5100977EBD /* Debug */,
+				ABB264F5145ECA5100977EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB264F6145ECA5100977EBD /* Build configuration list for PBXNativeTarget "A" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB264F7145ECA5100977EBD /* Debug */,
+				ABB264F8145ECA5100977EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABB264CF145ECA5100977EBD /* Project object */;
+}
